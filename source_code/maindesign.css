@@ -22,6 +22,25 @@ body{
     margin-bottom: 75px;
 }
 
+.navheader{
+    display: flex;
+    background-color: white;
+    margin: 0;
+    padding: 1rem 0;
+    justify-content: center;
+}
+
+.navlistitem{
+    list-style: none;
+    margin: 2rem;
+}
+
+.navlistitem a{
+    text-decoration: none;
+    text-emphasis: none;
+    color: black;
+}
+
 .flex-container{
     overflow: hidden;
     display: flex;
